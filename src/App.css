@@ -819,8 +819,10 @@ textarea {
 /* Mobile Header and Sidebar Styles */
 .mobile-header {
   display: none;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 70;
   backdrop-filter: var(--blur);
   background: var(--bg);
@@ -1063,11 +1065,11 @@ textarea {
   
   .mobile-header {
     display: block;
-    position: sticky;
+    position: fixed;
   }
   
   body {
-    padding-top: 0 !important;
+    padding-top: 70px !important;
   }
   
   .brand-mobile .logo {
