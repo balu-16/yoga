@@ -868,6 +868,24 @@ textarea {
   cursor: pointer;
   padding: 0;
   z-index: 80;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.hamburger-menu:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.hamburger-menu:active {
+  outline: none;
+  box-shadow: none;
+  background: transparent;
 }
 
 .hamburger-menu span {
