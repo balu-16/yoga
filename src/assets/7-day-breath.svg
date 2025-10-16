@@ -1,0 +1,52 @@
+<svg width="200" height="160" viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="breathGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:0.8"/>
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0.4"/>
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.2"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="160" fill="url(#breathGradient)" rx="16"/>
+  
+  <!-- Central breathing circle -->
+  <circle cx="100" cy="80" r="25" fill="url(#centerGlow)" opacity="0.9"/>
+  <circle cx="100" cy="80" r="18" fill="none" stroke="#22c55e" stroke-width="2" opacity="0.8"/>
+  <circle cx="100" cy="80" r="12" fill="none" stroke="#8b5cf6" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- Breathing waves radiating outward -->
+  <circle cx="100" cy="80" r="35" fill="none" stroke="#22c55e" stroke-width="1" opacity="0.6"/>
+  <circle cx="100" cy="80" r="45" fill="none" stroke="#8b5cf6" stroke-width="1" opacity="0.4"/>
+  <circle cx="100" cy="80" r="55" fill="none" stroke="#06b6d4" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Number 7 in center -->
+  <text x="100" y="90" font-family="serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle" opacity="0.9">7</text>
+  
+  <!-- Day indicators around the circle -->
+  <circle cx="100" cy="40" r="3" fill="#22c55e" opacity="0.8"/>
+  <circle cx="125" cy="50" r="3" fill="#8b5cf6" opacity="0.8"/>
+  <circle cx="140" cy="80" r="3" fill="#06b6d4" opacity="0.8"/>
+  <circle cx="125" cy="110" r="3" fill="#22c55e" opacity="0.8"/>
+  <circle cx="100" cy="120" r="3" fill="#8b5cf6" opacity="0.8"/>
+  <circle cx="75" cy="110" r="3" fill="#06b6d4" opacity="0.8"/>
+  <circle cx="60" cy="80" r="3" fill="#22c55e" opacity="0.8"/>
+  
+  <!-- Breath flow arrows -->
+  <path d="M70 60 Q80 50 90 60" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.7" marker-end="url(#arrowhead)"/>
+  <path d="M130 60 Q120 50 110 60" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Inhale/Exhale text -->
+  <text x="50" y="30" font-family="sans-serif" font-size="10" fill="#ffffff" opacity="0.8">inhale</text>
+  <text x="130" y="140" font-family="sans-serif" font-size="10" fill="#ffffff" opacity="0.8">exhale</text>
+  
+  <!-- Peaceful dots -->
+  <circle cx="30" cy="50" r="1.5" fill="#22c55e" opacity="0.6"/>
+  <circle cx="170" cy="70" r="1.5" fill="#8b5cf6" opacity="0.6"/>
+  <circle cx="40" cy="130" r="1" fill="#06b6d4" opacity="0.5"/>
+  <circle cx="160" cy="120" r="1" fill="#22c55e" opacity="0.5"/>
+</svg>

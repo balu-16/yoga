@@ -1,0 +1,39 @@
+<svg width="200" height="160" viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="festiveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.8"/>
+      <stop offset="50%" style="stop-color:#ffd48a;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.4"/>
+    </linearGradient>
+    <radialGradient id="sparkle" cx="50%" cy="50%" r="30%">
+      <stop offset="0%" style="stop-color:#ffd48a;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.3"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="160" fill="url(#sparkle)" rx="16"/>
+  
+  <!-- Mandala-inspired pattern -->
+  <circle cx="100" cy="80" r="40" fill="none" stroke="url(#festiveGradient)" stroke-width="3" opacity="0.8"/>
+  <circle cx="100" cy="80" r="25" fill="none" stroke="url(#festiveGradient)" stroke-width="2" opacity="0.6"/>
+  <circle cx="100" cy="80" r="15" fill="none" stroke="url(#festiveGradient)" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- Decorative petals -->
+  <path d="M100 40 Q110 50 100 60 Q90 50 100 40" fill="url(#festiveGradient)" opacity="0.8"/>
+  <path d="M140 80 Q130 90 120 80 Q130 70 140 80" fill="url(#festiveGradient)" opacity="0.8"/>
+  <path d="M100 120 Q90 110 100 100 Q110 110 100 120" fill="url(#festiveGradient)" opacity="0.8"/>
+  <path d="M60 80 Q70 70 80 80 Q70 90 60 80" fill="url(#festiveGradient)" opacity="0.8"/>
+  
+  <!-- Corner decorations -->
+  <path d="M30 30 Q35 25 40 30 Q35 35 30 30" fill="#f59e0b" opacity="0.6"/>
+  <path d="M170 30 Q165 25 160 30 Q165 35 170 30" fill="#f59e0b" opacity="0.6"/>
+  <path d="M30 130 Q35 125 40 130 Q35 135 30 130" fill="#f59e0b" opacity="0.6"/>
+  <path d="M170 130 Q165 125 160 130 Q165 135 170 130" fill="#f59e0b" opacity="0.6"/>
+  
+  <!-- Sparkle dots -->
+  <circle cx="70" cy="50" r="2" fill="#ffd48a" opacity="0.9"/>
+  <circle cx="130" cy="50" r="1.5" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="70" cy="110" r="1.5" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="130" cy="110" r="2" fill="#ffd48a" opacity="0.9"/>
+</svg>

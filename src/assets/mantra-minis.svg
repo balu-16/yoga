@@ -1,0 +1,107 @@
+<svg width="200" height="160" viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mantraGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:0.8"/>
+      <stop offset="50%" style="stop-color:#ec4899;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.5"/>
+    </linearGradient>
+    <radialGradient id="omGlow" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.2"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="160" fill="url(#mantraGradient)" rx="16"/>
+  
+  <!-- Central Om symbol -->
+  <g transform="translate(100,80) scale(1.2)" fill="url(#omGlow)" opacity="0.9">
+    <path d="M-15,-10 Q-10,-15 0,-10 Q10,-15 15,-10 Q10,-5 0,-8 Q-10,-5 -15,-10 Z"/>
+    <circle cx="8" cy="-5" r="3"/>
+    <path d="M-8,0 Q0,5 8,0 Q15,8 8,15 Q0,10 -8,15 Q-15,8 -8,0 Z"/>
+    <circle cx="0" cy="12" r="2"/>
+  </g>
+  
+  <!-- Mantra vibrations -->
+  <g stroke="#fbbf24" fill="none" opacity="0.7">
+    <circle cx="100" cy="80" r="25" stroke-width="1.5"/>
+    <circle cx="100" cy="80" r="35" stroke-width="1"/>
+    <circle cx="100" cy="80" r="45" stroke-width="0.8"/>
+    <circle cx="100" cy="80" r="55" stroke-width="0.6"/>
+  </g>
+  
+  <!-- Sanskrit-inspired symbols -->
+  <g fill="#ffffff" opacity="0.8">
+    <!-- Mini mantras around the center -->
+    <text x="60" y="50" font-family="serif" font-size="12" text-anchor="middle">॰</text>
+    <text x="140" y="50" font-family="serif" font-size="12" text-anchor="middle">॰</text>
+    <text x="60" y="110" font-family="serif" font-size="12" text-anchor="middle">॰</text>
+    <text x="140" y="110" font-family="serif" font-size="12" text-anchor="middle">॰</text>
+  </g>
+  
+  <!-- Meditation beads -->
+  <g opacity="0.7">
+    <circle cx="40" cy="60" r="3" fill="#ec4899"/>
+    <circle cx="45" cy="70" r="3" fill="#7c3aed"/>
+    <circle cx="50" cy="80" r="3" fill="#f59e0b"/>
+    <circle cx="45" cy="90" r="3" fill="#ec4899"/>
+    <circle cx="40" cy="100" r="3" fill="#7c3aed"/>
+    
+    <circle cx="160" cy="60" r="3" fill="#f59e0b"/>
+    <circle cx="155" cy="70" r="3" fill="#ec4899"/>
+    <circle cx="150" cy="80" r="3" fill="#7c3aed"/>
+    <circle cx="155" cy="90" r="3" fill="#f59e0b"/>
+    <circle cx="160" cy="100" r="3" fill="#ec4899"/>
+    
+    <!-- Connecting thread -->
+    <path d="M40 60 Q42 65 45 70 Q47 75 50 80 Q47 85 45 90 Q42 95 40 100" 
+          stroke="#ffffff" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M160 60 Q157 65 155 70 Q152 75 150 80 Q152 85 155 90 Q157 95 160 100" 
+          stroke="#ffffff" stroke-width="1" fill="none" opacity="0.5"/>
+  </g>
+  
+  <!-- Sound waves -->
+  <g stroke="#ffffff" fill="none" opacity="0.6">
+    <path d="M70 30 Q85 25 100 30 Q115 25 130 30" stroke-width="1.5"/>
+    <path d="M75 130 Q90 125 105 130 Q120 125 135 130" stroke-width="1.5"/>
+    <path d="M20 80 Q30 75 40 80" stroke-width="1"/>
+    <path d="M160 80 Q170 75 180 80" stroke-width="1"/>
+  </g>
+  
+  <!-- Lotus petals -->
+  <g opacity="0.6">
+    <ellipse cx="100" cy="40" rx="8" ry="15" fill="#ec4899" transform="rotate(0 100 40)"/>
+    <ellipse cx="100" cy="40" rx="8" ry="15" fill="#7c3aed" transform="rotate(45 100 40)"/>
+    <ellipse cx="100" cy="40" rx="8" ry="15" fill="#f59e0b" transform="rotate(90 100 40)"/>
+    <ellipse cx="100" cy="40" rx="8" ry="15" fill="#ec4899" transform="rotate(135 100 40)"/>
+  </g>
+  
+  <!-- Chakra points -->
+  <circle cx="100" cy="20" r="2" fill="#7c3aed" opacity="0.8"/>
+  <circle cx="100" cy="140" r="2" fill="#ec4899" opacity="0.8"/>
+  <circle cx="30" cy="80" r="2" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="170" cy="80" r="2" fill="#7c3aed" opacity="0.8"/>
+  
+  <!-- Peaceful energy dots -->
+  <circle cx="25" cy="30" r="1" fill="#fbbf24" opacity="0.7"/>
+  <circle cx="175" cy="30" r="1" fill="#ec4899" opacity="0.7"/>
+  <circle cx="25" cy="130" r="1" fill="#7c3aed" opacity="0.7"/>
+  <circle cx="175" cy="130" r="1" fill="#f59e0b" opacity="0.7"/>
+  
+  <!-- Meditation posture silhouette -->
+  <g transform="translate(100,120)" opacity="0.5">
+    <circle cx="0" cy="-10" r="4" fill="#7c3aed"/>
+    <ellipse cx="0" cy="0" rx="8" ry="6" fill="#7c3aed"/>
+    <ellipse cx="-6" cy="2" rx="3" ry="2" fill="#7c3aed"/>
+    <ellipse cx="6" cy="2" rx="3" ry="2" fill="#7c3aed"/>
+  </g>
+  
+  <!-- Spiritual sparkles -->
+  <g fill="#fbbf24" opacity="0.8">
+    <polygon points="80,25 81,27 83,27 81.5,28.5 82,30.5 80,29.5 78,30.5 78.5,28.5 77,27 79,27" transform="scale(0.6)"/>
+    <polygon points="120,135 121,137 123,137 121.5,138.5 122,140.5 120,139.5 118,140.5 118.5,138.5 117,137 119,137" transform="scale(0.5)"/>
+  </g>
+  
+  <!-- Mini text elements -->
+  <text x="100" y="100" font-family="serif" font-size="8" fill="#ffffff" text-anchor="middle" opacity="0.6">mini</text>
+</svg>

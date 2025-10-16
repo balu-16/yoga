@@ -1,0 +1,63 @@
+<svg width="200" height="160" viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="storyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.8"/>
+      <stop offset="30%" style="stop-color:#8b5cf6;stop-opacity:0.6"/>
+      <stop offset="70%" style="stop-color:#22c55e;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.4"/>
+    </linearGradient>
+    <radialGradient id="fireGlow" cx="50%" cy="80%" r="40%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:0.3"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="160" fill="url(#storyGradient)" rx="16"/>
+  
+  <!-- Campfire base -->
+  <ellipse cx="100" cy="140" rx="25" ry="8" fill="#92400e" opacity="0.8"/>
+  
+  <!-- Fire flames -->
+  <path d="M100 140 Q95 120 100 100 Q105 120 100 140" fill="url(#fireGlow)" opacity="0.9"/>
+  <path d="M90 135 Q88 118 92 105 Q96 118 90 135" fill="#f59e0b" opacity="0.8"/>
+  <path d="M110 135 Q112 118 108 105 Q104 118 110 135" fill="#f59e0b" opacity="0.8"/>
+  <path d="M100 130 Q98 115 100 105 Q102 115 100 130" fill="#fbbf24" opacity="0.9"/>
+  
+  <!-- Story elements floating around -->
+  <!-- Musical notes -->
+  <circle cx="60" cy="60" r="3" fill="#8b5cf6" opacity="0.8"/>
+  <path d="M60 60 L65 55 L65 65" stroke="#8b5cf6" stroke-width="1.5" fill="none" opacity="0.8"/>
+  
+  <circle cx="140" cy="50" r="2.5" fill="#22c55e" opacity="0.8"/>
+  <path d="M140 50 L144 46 L144 54" stroke="#22c55e" stroke-width="1.5" fill="none" opacity="0.8"/>
+  
+  <!-- Story book -->
+  <rect x="40" y="80" width="20" height="15" fill="#8b5cf6" opacity="0.7" rx="2"/>
+  <line x1="45" y1="85" x2="55" y2="85" stroke="#e0e7ff" stroke-width="1" opacity="0.8"/>
+  <line x1="45" y1="88" x2="55" y2="88" stroke="#e0e7ff" stroke-width="1" opacity="0.8"/>
+  <line x1="45" y1="91" x2="52" y2="91" stroke="#e0e7ff" stroke-width="1" opacity="0.8"/>
+  
+  <!-- Cultural symbols -->
+  <!-- Lotus flower -->
+  <path d="M160 80 Q165 75 170 80 Q165 85 160 80" fill="#22c55e" opacity="0.7"/>
+  <path d="M165 75 Q170 70 175 75 Q170 80 165 75" fill="#22c55e" opacity="0.7"/>
+  <path d="M155 85 Q160 80 165 85 Q160 90 155 85" fill="#22c55e" opacity="0.7"/>
+  <path d="M170 85 Q175 80 180 85 Q175 90 170 85" fill="#22c55e" opacity="0.7"/>
+  <circle cx="167" cy="82" r="2" fill="#fbbf24" opacity="0.8"/>
+  
+  <!-- Floating story particles -->
+  <circle cx="80" cy="40" r="1.5" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="120" cy="35" r="1" fill="#8b5cf6" opacity="0.7"/>
+  <circle cx="45" cy="50" r="1.2" fill="#22c55e" opacity="0.8"/>
+  <circle cx="155" cy="45" r="1" fill="#f59e0b" opacity="0.6"/>
+  
+  <!-- Storyteller silhouette -->
+  <circle cx="100" cy="115" r="4" fill="#92400e" opacity="0.8"/>
+  <path d="M100 119 L100 130" stroke="#92400e" stroke-width="3" opacity="0.8"/>
+  <path d="M90 125 Q100 120 110 125" stroke="#92400e" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Sound waves from storytelling -->
+  <path d="M75 110 Q85 105 95 110" stroke="#fbbf24" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M105 110 Q115 105 125 110" stroke="#fbbf24" stroke-width="1" fill="none" opacity="0.6"/>
+</svg>

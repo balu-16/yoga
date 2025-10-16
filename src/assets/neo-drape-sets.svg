@@ -1,0 +1,30 @@
+<svg width="200" height="160" viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fabricGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.8"/>
+      <stop offset="50%" style="stop-color:#c7b7ff;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.4"/>
+    </linearGradient>
+    <linearGradient id="shadowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#000;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="160" fill="url(#shadowGradient)" rx="16"/>
+  
+  <!-- Flowing fabric shapes -->
+  <path d="M20 40 Q60 20 100 40 T180 40 L180 60 Q140 80 100 60 T20 60 Z" fill="url(#fabricGradient)" opacity="0.9"/>
+  <path d="M30 70 Q70 50 110 70 T190 70 L190 90 Q150 110 110 90 T30 90 Z" fill="url(#fabricGradient)" opacity="0.7"/>
+  <path d="M10 100 Q50 80 90 100 T170 100 L170 120 Q130 140 90 120 T10 120 Z" fill="url(#fabricGradient)" opacity="0.5"/>
+  
+  <!-- Accent dots -->
+  <circle cx="50" cy="50" r="3" fill="#8b5cf6" opacity="0.8"/>
+  <circle cx="150" cy="80" r="2" fill="#c7b7ff" opacity="0.9"/>
+  <circle cx="80" cy="110" r="2.5" fill="#8b5cf6" opacity="0.6"/>
+  
+  <!-- Subtle texture lines -->
+  <line x1="40" y1="30" x2="160" y2="35" stroke="#8b5cf6" stroke-width="1" opacity="0.3"/>
+  <line x1="35" y1="130" x2="165" y2="125" stroke="#c7b7ff" stroke-width="1" opacity="0.4"/>
+</svg>

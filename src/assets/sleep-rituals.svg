@@ -1,0 +1,70 @@
+<svg width="200" height="160" viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nightGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b;stop-opacity:0.9"/>
+      <stop offset="50%" style="stop-color:#581c87;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:0.8"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="70%" cy="30%" r="40%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.2"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="160" fill="url(#nightGradient)" rx="16"/>
+  
+  <!-- Moon -->
+  <circle cx="140" cy="40" r="18" fill="url(#moonGlow)" opacity="0.9"/>
+  <circle cx="140" cy="40" r="15" fill="#fbbf24" opacity="0.8"/>
+  <!-- Moon craters -->
+  <circle cx="135" cy="35" r="2" fill="#f59e0b" opacity="0.6"/>
+  <circle cx="145" cy="42" r="1.5" fill="#f59e0b" opacity="0.5"/>
+  <circle cx="138" cy="45" r="1" fill="#f59e0b" opacity="0.4"/>
+  
+  <!-- Stars -->
+  <g fill="#ffffff" opacity="0.8">
+    <polygon points="50,30 52,36 58,36 53,40 55,46 50,42 45,46 47,40 42,36 48,36" transform="scale(0.6)"/>
+    <polygon points="170,60 172,66 178,66 173,70 175,76 170,72 165,76 167,70 162,66 168,66" transform="scale(0.5)"/>
+    <polygon points="30,70 32,76 38,76 33,80 35,86 30,82 25,86 27,80 22,76 28,76" transform="scale(0.4)"/>
+  </g>
+  
+  <!-- Additional small stars -->
+  <circle cx="60" cy="25" r="1" fill="#ffffff" opacity="0.7"/>
+  <circle cx="180" cy="45" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <circle cx="25" cy="50" r="1" fill="#ffffff" opacity="0.8"/>
+  <circle cx="170" cy="90" r="1" fill="#ffffff" opacity="0.5"/>
+  <circle cx="40" cy="100" r="1.2" fill="#ffffff" opacity="0.6"/>
+  
+  <!-- Sleeping figure silhouette -->
+  <ellipse cx="100" cy="120" rx="25" ry="12" fill="#8b5cf6" opacity="0.6"/>
+  <circle cx="85" cy="115" r="8" fill="#8b5cf6" opacity="0.7"/>
+  
+  <!-- Peaceful breathing waves -->
+  <path d="M60 100 Q80 95 100 100 Q120 95 140 100" stroke="#22c55e" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M65 105 Q85 100 105 105 Q125 100 145 105" stroke="#06b6d4" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M70 110 Q90 105 110 110 Q130 105 150 110" stroke="#8b5cf6" stroke-width="1" fill="none" opacity="0.4"/>
+  
+  <!-- Dream bubbles -->
+  <circle cx="120" cy="80" r="6" fill="#8b5cf6" opacity="0.4"/>
+  <circle cx="130" cy="70" r="4" fill="#06b6d4" opacity="0.5"/>
+  <circle cx="125" cy="60" r="3" fill="#22c55e" opacity="0.6"/>
+  
+  <!-- Pillow -->
+  <ellipse cx="85" cy="125" rx="15" ry="6" fill="#581c87" opacity="0.8"/>
+  
+  <!-- Calming aura -->
+  <circle cx="100" cy="115" r="40" fill="none" stroke="#8b5cf6" stroke-width="1" opacity="0.3"/>
+  <circle cx="100" cy="115" r="50" fill="none" stroke="#06b6d4" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Night sky texture -->
+  <circle cx="75" cy="45" r="0.5" fill="#8b5cf6" opacity="0.4"/>
+  <circle cx="155" cy="25" r="0.5" fill="#06b6d4" opacity="0.5"/>
+  <circle cx="90" cy="60" r="0.5" fill="#22c55e" opacity="0.3"/>
+  <circle cx="160" cy="110" r="0.5" fill="#8b5cf6" opacity="0.4"/>
+  
+  <!-- Zzz sleep symbols -->
+  <text x="110" y="95" font-family="serif" font-size="12" fill="#ffffff" opacity="0.6">z</text>
+  <text x="115" y="85" font-family="serif" font-size="10" fill="#ffffff" opacity="0.5">z</text>
+  <text x="120" y="75" font-family="serif" font-size="8" fill="#ffffff" opacity="0.4">z</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg width="200" height="160" viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="commuteGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.8"/>
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#22c55e;stop-opacity:0.4"/>
+    </linearGradient>
+    <radialGradient id="peaceGlow" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.2"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="160" fill="url(#commuteGradient)" rx="16"/>
+  
+  <!-- Road/path -->
+  <path d="M20 140 Q100 120 180 140" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M30 135 Q100 115 170 135" stroke="#06b6d4" stroke-width="1" fill="none" opacity="0.8"/>
+  
+  <!-- Simple car silhouette -->
+  <ellipse cx="100" cy="130" rx="20" ry="8" fill="#8b5cf6" opacity="0.8"/>
+  <rect x="85" y="125" width="30" height="8" fill="#8b5cf6" opacity="0.8" rx="4"/>
+  <circle cx="90" cy="135" r="3" fill="#06b6d4" opacity="0.9"/>
+  <circle cx="110" cy="135" r="3" fill="#06b6d4" opacity="0.9"/>
+  
+  <!-- Peaceful aura around car -->
+  <circle cx="100" cy="130" r="35" fill="none" stroke="#22c55e" stroke-width="1" opacity="0.5"/>
+  <circle cx="100" cy="130" r="45" fill="none" stroke="#06b6d4" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Meditation waves from car -->
+  <path d="M60 110 Q80 100 100 110 Q120 100 140 110" stroke="#22c55e" stroke-width="1.5" fill="none" opacity="0.7"/>
+  <path d="M65 100 Q85 90 105 100 Q125 90 145 100" stroke="#06b6d4" stroke-width="1" fill="none" opacity="0.6"/>
+  
+  <!-- Headphones icon -->
+  <circle cx="100" cy="115" r="4" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+  <path d="M96 115 Q100 110 104 115" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.8"/>
+  <circle cx="94" cy="115" r="1.5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="106" cy="115" r="1.5" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- City skyline in background -->
+  <rect x="40" y="60" width="8" height="20" fill="#8b5cf6" opacity="0.4"/>
+  <rect x="50" y="50" width="6" height="30" fill="#06b6d4" opacity="0.4"/>
+  <rect x="58" y="55" width="10" height="25" fill="#22c55e" opacity="0.4"/>
+  <rect x="120" y="45" width="12" height="35" fill="#8b5cf6" opacity="0.4"/>
+  <rect x="135" y="55" width="8" height="25" fill="#06b6d4" opacity="0.4"/>
+  <rect x="145" y="50" width="6" height="30" fill="#22c55e" opacity="0.4"/>
+  
+  <!-- Calm clouds -->
+  <ellipse cx="60" cy="35" rx="15" ry="8" fill="#ffffff" opacity="0.6"/>
+  <ellipse cx="140" cy="30" rx="12" ry="6" fill="#ffffff" opacity="0.5"/>
+  <ellipse cx="100" cy="25" rx="18" ry="10" fill="#ffffff" opacity="0.4"/>
+  
+  <!-- Sound waves -->
+  <path d="M30 90 Q50 85 70 90" stroke="#22c55e" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M130 85 Q150 80 170 85" stroke="#06b6d4" stroke-width="1" fill="none" opacity="0.6"/>
+  
+  <!-- Peaceful dots -->
+  <circle cx="25" cy="70" r="1.5" fill="#22c55e" opacity="0.7"/>
+  <circle cx="175" cy="75" r="1.5" fill="#06b6d4" opacity="0.7"/>
+  <circle cx="80" cy="40" r="1" fill="#8b5cf6" opacity="0.6"/>
+  <circle cx="120" cy="35" r="1" fill="#22c55e" opacity="0.6"/>
+</svg>
